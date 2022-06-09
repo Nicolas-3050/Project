@@ -1,0 +1,85 @@
+@import "general.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 270px;
+}
+
+.logo-div img {
+}
+
+.connexionArea {
+  min-height: 550px;
+  min-width: 350px;
+  width: 70%;
+  height: 70vh;
+  margin: 50px auto;
+  background-color:#f7f7f7;
+  display: flex;
+  flex: 1 2;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formConnexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 33%;
+  margin: auto;
+  height: 70%;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35%;
+}
+
+.textArea input {
+  border: 1px solid #23b2a4;
+  min-height: 52px;
+  border-radius: 5px;
+  padding-left: 40px;
+}
+
+.btnArea {
+  text-align: center;
+  height: 50%;
+  color: #23b2a4;
+  font-size: 18px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.button-connexion {
+  background-color: #23b2a4;
+  border: none;
+  border-radius: 5px;
+  width: 95%;
+  height: 45px;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+  .formConnexion {
+    width: 95%;
+  }
+
+  .connexionArea {
+    width: 95%;
+  }
+
+}
+
+

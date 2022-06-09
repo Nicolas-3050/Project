@@ -1,0 +1,53 @@
+.PosterOffreArea {
+    height: 100%;
+    width: 100%;
+}
+
+.header-card {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.posterOffreTitle {
+    margin: auto;
+    font-size: 1.5em;
+    color: #23b2a4;
+}
+
+.postOffreArea {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+.postOffreArea div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.PostForm {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.postOffreArea div input {
+    height: 50px;
+    border: 1px solid #23b2a4;
+    border-radius: 1px;
+    margin-left: 15px;
+}
+
+.postOffreArea div label {
+    width: 30%;
+    color: dimgray;
+}

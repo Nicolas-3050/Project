@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    color: #23b2a4;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #23b2a4;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.div-logo {
+    width: 20%;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.div-logo h2 {
+    display: none;
+}
+
+.open-nav-btn {
+    display: none;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.open-nav-btn img {
+    height: 100%;
+    width: 100%;
+}
+
+.close-nav-btn {
+    /*display: none;*/
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: #f7f7f7;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close-nav-btn img {
+    width: 100%;
+    height:100%;
+}
+
+.logoInMenu {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 1130px) {
+
+    .open-nav-btn {
+        display: block;
+    }
+
+    .div-logo {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-logo h2 {
+        display:block;
+        color: #23b2a4;
+        text-align: center;
+    }
+
+    nav ul {
+        position: fixed;
+        height: 100%;
+        flex-direction: column;
+        background-color: #f7f7f7;
+        left: 0;
+        top: 0;
+        padding-right: 15px;
+        width: 90%;
+        text-align: right;
+    }
+
+}

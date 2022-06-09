@@ -1,0 +1,112 @@
+@import "general.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: auto;
+  width: 270px;
+  height: 112px;
+}
+
+.logo img {
+  margin: 12px;
+}
+
+  .formProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    height: 70%;
+  }
+  
+  .textArea-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .textArea-profile input {
+    border: 1px solid #23b2a4;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+  
+  .btnProfileArea {
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    color: #23b2a4;
+    font-size: 18px;
+  }
+  
+  .buttonProfile {
+    background-color: #23b2a4;
+    border: none;
+    border-radius: 5px;
+    width: 95%;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .ProfileArea {
+    background-color: white;
+    width: 80%;
+    margin: 10vh auto auto;
+    height: 80vh;
+  }
+
+  .top-profile {
+    display: flex;
+    width: 40%;
+    min-height: 65px;
+
+  }
+
+  .top-profile .name {
+    display: flex;
+    flex-direction: column;
+    width : 50%;
+    justify-content: space-around;
+    min-width: 100px;
+  }
+.top-profile .pic {
+  border: 1px solid dimgray;
+}
+
+.formProfile input {
+  height: 28px;
+}
+
+.mdp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mdp input {
+    width: 45%;
+  }
+
+  
+  @media screen and (max-width: 730px) {
+    .formConnexion {
+      width: 95%;
+    }
+  
+    .connexionArea {
+      width: 95%;
+    }
+  
+  }
+  

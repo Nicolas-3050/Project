@@ -1,0 +1,47 @@
+.Candidater-title {
+    color: #23b2a4;
+    margin:auto;
+}
+
+.candidater-header-card {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.candidater-form {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+}
+
+.candidater-Area {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.candidater-Area div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.candidater-Area div label {
+    font-size: 1rem;
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+.candidater-Area div input {
+    border: 1px solid #23b2a4;
+    border-radius: 1px;
+    min-height: 35px;
+    width: 40%;
+}
+
+.candidate-motivation {
+    height: 70px;
+}

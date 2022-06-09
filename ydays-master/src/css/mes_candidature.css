@@ -1,0 +1,71 @@
+.body-candidatures {
+    margin: 50px auto auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.body-card-candidate {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+}
+
+.card-candidature {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.border {
+    border-bottom: 0.1em solid gray;
+    height: 0.01rem;
+    width: 90%;
+    margin: 15px 5%;
+}
+
+.btnArea {
+    height: 20%;
+  }
+
+  .button {
+    background-color: #23b2a4;
+    border: none;
+    border-radius: 15px;
+    width: 30%;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .JobType {
+    color: dimgray;
+    margin-left: 30px;
+}
+  .jobTitle {
+      color: #23b2a4;
+      text-align: center;
+      margin: auto;
+  }
+  .jobDetails {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      height: 150px;
+      margin-top: 15px;
+  }
+
+@media screen and (max-width: 1060px) {
+    .body-candidatures {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .body-candidatures {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

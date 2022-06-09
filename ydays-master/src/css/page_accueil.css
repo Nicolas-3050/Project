@@ -1,0 +1,100 @@
+.center-div {
+    width: 70%;
+    height: 80vh;
+    background-color: #f7f7f7;
+    margin: 10vh auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil-logo {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.accueil-signature {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.accueil-signature img {
+    width: 100%;
+}
+
+.center-accueil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 40%;
+    align-items: center;
+}
+
+.center-accueil div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 50%;
+    color: #525252;
+    font-weight: normal;
+}
+
+.center-line {
+    width: 1px !important;
+    height: 100% !important;
+    background-color: #333;
+}
+
+.connexion-btn {
+    background-color: #23b2a4;
+    border: none;
+    border-radius: 10px;
+    width: 95%;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.bottom-logo {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+
+    .center-accueil {
+        flex-direction: column;
+        height: 80%;
+    }
+
+    .center-accueil div {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .accueil-logo {
+        height: 10%;
+        width: 40%;
+    }
+
+    .accueil-logo img {
+        width: 100%;
+    }
+
+    .center-line {
+        height: 1px !important;
+        width: 70% !important;
+
+    }
+    .bottom-logo {
+        display: block;
+        height: 90%;
+        margin-top: -20px;
+    }
+}
